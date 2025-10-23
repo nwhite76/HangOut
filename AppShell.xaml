@@ -8,19 +8,15 @@
     Title="HangOutApp">
 
     <TabBar>
-        <Tab>
-            <ShellContent ContentTemplate="{DataTemplate Views=local:MainPage}" />
+        <Tab Title="Home">
+            <ShellContent 
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
         </Tab>
-        <Tab>
-            <ShellContent ContentTemplate="{DataTemplate Views=local:ForecastPage}" />
+        <Tab Title="Forecast">
+            <ShellContent 
+                ContentTemplate="{DataTemplate local:ForecastPage}"
+                Route="ForecastPage" />
         </Tab>
     </TabBar>
-
-    <!--
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    -->
-
 </Shell>

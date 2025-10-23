@@ -1,4 +1,4 @@
-namespace HangOut;
+namespace HangOutApp;
 
 public partial class ForecastPage : ContentPage
 {
