@@ -7,16 +7,15 @@
     Shell.FlyoutBehavior="Disabled"
     Title="HangOutApp">
 
-    <FlyoutItem Title="Home">
+    <TabBar>
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate Views=local:MainPage}" />
         </Tab>
-    </FlyoutItem>
-    <FlyoutItem Title="Forecast">
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate Views=local:ForecastPage}" />
         </Tab>
-    </FlyoutItem>
+    </TabBar>
+
     <!--
     <ShellContent
         Title="Home"
