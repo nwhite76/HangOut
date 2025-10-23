@@ -1,0 +1,6 @@
+Complete - Convert speed to MPH
+Factor in time of day???
+Look into the forecast for rain
+Option to loook at the days forecast and see if conditions improve or decline
+Add 5 day forecast
+Add settings for F or C / mph /kph

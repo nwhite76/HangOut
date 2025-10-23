@@ -1,0 +1,9 @@
+App code complete for algorithm testing. GUI to improve
+
+19th Oct
+Temp: 13.9
+Humidity: 81%
+Wind: 2.68 m/s
+Score: 30%
+Condition: Average
+Actual dry performance: Ok for light sports clothes and white socks. Not good for thicker cotton tshirts
