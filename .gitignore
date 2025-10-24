@@ -426,3 +426,38 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# --- .NET MAUI Specific ---
+
+# Prevent platform-specific build artifacts from being committed
+bin/
+obj/
+
+# macOS/iOS-specific folders
+*.app/
+*.xcworkspace/
+*.xcodeproj/
+*.xcuserstate
+*.xcuserdata/
+*.DS_Store
+build/
+
+# Android-specific
+*.apk
+*.aab
+*.keystore
+
+# iOS provisioning profiles and build outputs
+*.mobileprovision
+*.ipa
+
+# VS Mac-specific settings
+.idea/
+.vscode/
+*.userprefs
+
+# VS Code Native Debug Output (optional)
+.vscode/launch.json
+.vscode/tasks.json
+
+# Dotnet workloads cache
+.dotnet/
